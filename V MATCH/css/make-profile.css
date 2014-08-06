@@ -1,0 +1,79 @@
+.html
+{
+	background-color: #738489;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF url("../images/notebook_paper_background-light_blue_gray-page-fr4.png") no-repeat center center;
+	background-color: rgba(255, 255, 255, 0.46);
+	background-size: cover !important;
+}
+
+#page_position_content
+{
+	margin-top: 16px;
+	margin-bottom: 62px;
+}
+
+#pu1817-4
+{
+	width: 0.01px;
+	margin-left: 293px;
+	position: relative;
+}
+
+#u1817-4
+{
+	z-index: 7;
+	width: 428px;
+	min-height: 34px;
+	line-height: 55px;
+	font-size: 46px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u2046-5
+{
+	z-index: 2;
+	width: 80px;
+	min-height: 18px;
+	margin-right: -10000px;
+	margin-top: 14px;
+	left: 529px;
+}
+
+#u2098
+{
+	z-index: 11;
+	width: 10000px;
+	min-height: 1166px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 20px;
+	margin-top: 18px;
+	position: relative;
+}
+
+body
+{
+	padding-top: 6px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

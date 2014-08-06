@@ -1,0 +1,410 @@
+.html
+{
+	background-color: #738489;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 523.95px;
+	border-style: none;
+	border-color: #000000;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent url("../images/notebook_paper_background-light_blue_gray-page-fr.png") no-repeat center center;
+	background-size: cover !important;
+}
+
+#page_position_content
+{
+	margin-top: 6px;
+	margin-bottom: -41px;
+}
+
+#pu1705
+{
+	width: 0.01px;
+	margin-left: 18px;
+	position: relative;
+}
+
+#u1705
+{
+	z-index: 31;
+	width: 186px;
+	margin-right: -10000px;
+}
+
+#u1705_img
+{
+	padding-right: 1px;
+}
+
+#u1677-4
+{
+	z-index: 27;
+	width: 109px;
+	min-height: 7px;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 186px;
+}
+
+#pmenuu218
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 12px;
+	left: 452px;
+}
+
+#menuu218
+{
+	z-index: 33;
+	width: 467px;
+	opacity: 0.65;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+	filter: alpha(opacity=65);
+	margin-left: 3px;
+	position: relative;
+}
+
+#u267
+{
+	width: 232px;
+	min-height: 33px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u268
+{
+	width: 232px;
+	background-color: #000000;
+	padding-bottom: 9px;
+	position: relative;
+}
+
+#u270-4
+{
+	width: 224px;
+	min-height: 20px;
+	padding-left: 2px;
+	padding-top: 4px;
+	padding-right: 2px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 17px;
+	color: #FFFFFF;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	position: relative;
+	margin-right: -10000px;
+	top: 4px;
+	left: 2px;
+}
+
+#u274
+{
+	width: 233px;
+	min-height: 33px;
+	position: relative;
+	margin-right: -10000px;
+	left: 234px;
+}
+
+#u277
+{
+	width: 233px;
+	background-color: #000000;
+	padding-bottom: 9px;
+	position: relative;
+}
+
+#u268:hover,#u277:hover
+{
+	background-color: #AAAAAA;
+	margin: 0px;
+}
+
+#u278-4
+{
+	width: 225px;
+	min-height: 20px;
+	padding-left: 2px;
+	padding-top: 4px;
+	padding-right: 2px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 17px;
+	color: #FFFFFF;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	position: relative;
+	margin-right: -10000px;
+	top: 4px;
+	left: 2px;
+}
+
+#slideshowu1452
+{
+	z-index: 46;
+	width: 0.01px;
+	height: 402px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#u1459
+{
+	position: absolute;
+	width: 480px;
+	height: 402px;
+	background-color: transparent;
+}
+
+#u1459popup
+{
+	z-index: 47;
+}
+
+#u1460
+{
+	z-index: 48;
+	width: 480px;
+	height: 402px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1460_img
+{
+	padding: 110px 103px;
+}
+
+#u1505
+{
+	z-index: 50;
+	width: 480px;
+	height: 402px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1514
+{
+	z-index: 52;
+	width: 480px;
+	height: 402px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u1505_img,#u1514_img
+{
+	padding: 89px 128px;
+}
+
+.MenuItem,.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u1840-4
+{
+	z-index: 54;
+	width: 186px;
+	min-height: 32px;
+	line-height: 28px;
+	font-size: 23px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	margin-left: 35px;
+	top: -349px;
+	margin-bottom: -32px;
+	position: relative;
+}
+
+#pu1843
+{
+	width: 0.01px;
+	margin-left: 35px;
+	top: -284px;
+	margin-bottom: -270px;
+	position: relative;
+}
+
+#u1843
+{
+	z-index: 58;
+	width: 435px;
+	min-height: 270px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1907-6
+{
+	z-index: 59;
+	width: 301px;
+	min-height: 38px;
+	line-height: 25px;
+	font-size: 21px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 224px;
+	left: 558px;
+}
+
+#menuu169
+{
+	z-index: 2;
+	width: 960px;
+	margin-top: 68px;
+}
+
+#u170
+{
+	width: 238px;
+	min-height: 34px;
+	margin-right: -10000px;
+}
+
+#u173
+{
+	width: 238px;
+	padding-bottom: 10px;
+}
+
+#u173:hover
+{
+	margin: 0px;
+}
+
+#u173:active
+{
+	margin: 0px;
+}
+
+#u194
+{
+	width: 238px;
+	min-height: 34px;
+	margin-right: -10000px;
+	left: 240px;
+}
+
+#u195
+{
+	width: 238px;
+	padding-bottom: 10px;
+}
+
+#u173.MuseMenuActive,#u195:hover
+{
+	margin: 0px;
+}
+
+#u195:active
+{
+	margin: 0px;
+}
+
+#u176-4,#u197-4
+{
+	width: 238px;
+	min-height: 24px;
+	margin-right: -10000px;
+	top: 5px;
+}
+
+#u211
+{
+	width: 239px;
+	min-height: 34px;
+	margin-right: -10000px;
+	left: 480px;
+}
+
+#u214
+{
+	width: 239px;
+	padding-bottom: 10px;
+}
+
+#u195.MuseMenuActive,#u214:hover
+{
+	margin: 0px;
+}
+
+#u214:active
+{
+	margin: 0px;
+}
+
+#u1915
+{
+	width: 239px;
+	min-height: 34px;
+	margin-right: -10000px;
+	left: 721px;
+}
+
+#u1916
+{
+	width: 239px;
+	padding-bottom: 10px;
+}
+
+#u214.MuseMenuActive,#u1916:hover
+{
+	margin: 0px;
+}
+
+#u1916:active
+{
+	margin: 0px;
+}
+
+#u1916.MuseMenuActive
+{
+	margin: 0px;
+}
+
+#u217-4,#u1919-4
+{
+	width: 239px;
+	min-height: 24px;
+	margin-right: -10000px;
+	top: 5px;
+}
+
+body
+{
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

@@ -1,0 +1,14 @@
+<span class="fl"> 
+				<select id="occupationSelectBox" name="occupationDetails.employedIn" class="slctfld">
+					<option value="">Select Employed In</option>
+					<option value="MNC">MNC</option><option value="CENTRAL_GOVERNMENT">Central Government</option><option value="STATE_GOVERNMENT">State Government</option><option value="PRIVATE_SECTOR">Private Sector</option><option value="PUBLIC_SECTOR">Public Sector</option><option value="NOT_WORKING">Not Working</option><option value="OTHERS">Others</option>
+				</select>
+				</span> 
+				<div id="dvEmpFull" style="display: none;">
+					<label><a>*</a>Occupation</label> 
+						<span class="fl">
+							<select id="functionalAreasSelectBox" name="occupationDetails.functionalArea" class="slctfld">
+								<option>Select your Occupation</option>
+								<option value="ADMI">Admin/Secretarial</option><option value="ADVE">Advertising/ Entertainment/ Media</option><option value="AGRI">Agriculture</option><option value="ARCH">Architecture &amp; Design</option><option value="ARTI">Artists, Animators &amp; Web Designers</option><option value="BANK">Banking, Insurance &amp; Financial Services</option><option value="BEAU">Beauty, Fashion &amp; Jewellery Designers</option><option value="BUSI">Business Owner / Entrepreneur</option><option value="CIVI">Civil Services / Law Enforcement</option><option value="CONS">Construction</option><option value="CUST">Customer Service/ Call Centre/BPO</option><option value="DEFE">Defence</option><option value="EDUC">Education/ Training</option><option value="ELEC">Electronics</option><option value="EXPO">Export/ Import</option><option value="FINA">Finance and Accounts</option><option value="GOVE">Government Employee</option><option value="HEAL">Health Care</option><option value="HOTE">Hotels/ Restaurants</option><option value="HUMA">Human Resource</option><option value="IIII">IT</option><option value="LEGA">Legal</option><option value="LOSS">Loss Prevention Manager</option><option value="MANA">Management / Corporate Professionals</option><option value="MANU">Manufacturing/ Engineering/ R&amp;D</option><option value="MARK">Marketing and Communications</option><option value="MERC">Merchant Navy</option><option value="NONW">Non Working</option><option value="OILG">Oil &amp; Gas</option><option value="OTHE">Others</option><option value="PHAR">Pharmaceutical/ Biotechnology</option><option value="PURC">Purchase/ Logistics/ Supply chain</option><option value="REAL">Real Estate</option><option value="RETA">Retail Chains</option><option value="SALE">Sales/ Business Development</option><option value="SCIE">Science</option><option value="TELE">Telecom/ ISP</option><option value="TRAV">Travel/ Airlines</option>
+							</select> 
+						</span>

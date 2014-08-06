@@ -1,0 +1,69 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="46317016"/>
+    <file name="master_a-master.css" crc="199752887" ref="sign-up:success-stories:login:index:about-the-site:contact-us"/>
+    <file name="master_b-master.css" crc="4231298212" ref="admin-home:give-preference:social-connect:view-profile:share-success:make-profile:express-interest:user-home:upload-pics:search:ask-us:view-interests"/>
+    <file name="sign-up.css" crc="71657617" ref="sign-up"/>
+    <file name="admin-home.css" crc="37827036" ref="admin-home"/>
+    <file name="give-preference.css" crc="4118833400" ref="give-preference"/>
+    <file name="success-stories.css" crc="31795654" ref="success-stories"/>
+    <file name="social-connect.css" crc="3852519092" ref="social-connect"/>
+    <file name="view-profile.css" crc="4096239858" ref="view-profile"/>
+    <file name="share-success.css" crc="3906460275" ref="share-success"/>
+    <file name="login.css" crc="4110196356" ref="login"/>
+    <file name="make-profile.css" crc="105340993" ref="make-profile"/>
+    <file name="index.css" crc="28700066" ref="index"/>
+    <file name="express-interest.css" crc="3832966886" ref="express-interest"/>
+    <file name="about-the-site.css" crc="417115047" ref="about-the-site"/>
+    <file name="user-home.css" crc="521203642" ref="user-home"/>
+    <file name="upload-pics.css" crc="333635429" ref="upload-pics"/>
+    <file name="search.css" crc="524972885" ref="search"/>
+    <file name="ask-us.css" crc="459535933" ref="ask-us"/>
+    <file name="view-interests.css" crc="3795683046" ref="view-interests"/>
+    <file name="contact-us.css" crc="283298820" ref="contact-us"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact-us:about-the-site:login:sign-up:user-home:make-profile:give-preference:success-stories:search:view-interests:ask-us:share-success:social-connect:upload-pics:admin-home:express-interest:view-profile"/>
+    <file name="museutils.js" crc="3865766194" ref="index:contact-us:about-the-site:login:sign-up:user-home:make-profile:give-preference:success-stories:search:view-interests:ask-us:share-success:social-connect:upload-pics:admin-home:express-interest:view-profile"/>
+    <file name="jquery.musemenu.js" crc="3788803530" ref="index:contact-us:about-the-site:login:sign-up:user-home:success-stories"/>
+    <file name="webpro.js" crc="3903299128" ref="index"/>
+    <file name="musewpslideshow.js" crc="138381373" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4250894771" ref="index"/>
+    <file name="touchswipe.js" crc="4156838003" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:contact-us:about-the-site:login:sign-up:user-home:make-profile:give-preference:success-stories:search:view-interests:ask-us:share-success:social-connect:upload-pics:admin-home:express-interest:view-profile"/>
+    <file name="pie.js" crc="3827607177" ref="user-home:make-profile:give-preference:search:view-interests:ask-us:share-success:social-connect:upload-pics:admin-home:express-interest:view-profile"/>
+  </folder>
+  <folder name="images">
+    <file name="notebook_paper_background-light_blue_gray-page-fr.png" crc="222023831" ref="index:contact-us:about-the-site:login:success-stories"/>
+    <file name="v-match icon (1).png" crc="3987457957" ref="index:contact-us:about-the-site:login:sign-up:success-stories"/>
+    <file name="peaceful.jpg" crc="177309650" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="cranelove.jpg" crc="315476987" ref="index"/>
+    <file name="hearts.jpg" crc="3791535884" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="notebook_paper_background-light_blue_gray-page-fr2.png" crc="222023831" ref="sign-up"/>
+    <file name="notebook_paper_background-light_blue_gray-page-fr3.png" crc="222023831" ref="user-home"/>
+    <file name="notebook_paper_background-light_blue_gray-page-fr4.png" crc="131509342" ref="make-profile"/>
+    <file name="notebook_paper_background-light_blue_gray-page-fr5.png" crc="222023831" ref="give-preference:search:view-interests:ask-us:social-connect:upload-pics:admin-home:express-interest"/>
+    <file name="notebook_paper_background-light_blue_gray-page-fr6.png" crc="222023831" ref="share-success"/>
+    <file name="notebook_paper_background-light_blue_gray-page-fr7.png" crc="4019147896" ref="view-profile"/>
+  </folder>
+  <file name="index.html" crc="4053503672" mt="1396786685336" redirect="true"/>
+  <file name="contact-us.html" crc="426717505" mt="1396786685339" redirect="true"/>
+  <file name="about-the-site.html" crc="3869711854" mt="1396786685341" redirect="true"/>
+  <file name="login.html" crc="383848881" mt="1396786685348" redirect="true"/>
+  <file name="sign-up.html" crc="3971779017" mt="1396786685351" redirect="true"/>
+  <file name="user-home.html" crc="16148286" mt="1396786644322" redirect="true"/>
+  <file name="make-profile.html" crc="3919245957" mt="1396608316676" redirect="true"/>
+  <file name="give-preference.html" crc="44572808" mt="1396608327879" redirect="true"/>
+  <file name="success-stories.html" crc="63183411" mt="1396786685354" redirect="true"/>
+  <file name="search.html" crc="4209010079" mt="1396604040601" redirect="true"/>
+  <file name="view-interests.html" crc="289400894" mt="1396604040602" redirect="true"/>
+  <file name="ask-us.html" crc="241744784" mt="1396604040604" redirect="true"/>
+  <file name="share-success.html" crc="504532003" mt="1396653696713" redirect="true"/>
+  <file name="social-connect.html" crc="121272845" mt="1396700582582" redirect="true"/>
+  <file name="upload-pics.html" crc="3823090239" mt="1396702546304" redirect="true"/>
+  <file name="admin-home.html" crc="195229667" mt="1396785762151" redirect="true"/>
+  <file name="express-interest.html" crc="57197218" mt="1396785537130" redirect="true"/>
+  <file name="view-profile.html" crc="3849101726" mt="1396786718946" redirect="true"/>
+</manifest>

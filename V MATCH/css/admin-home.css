@@ -1,0 +1,74 @@
+.html
+{
+	background-color: #738489;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 438px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	padding-bottom: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF url("../images/notebook_paper_background-light_blue_gray-page-fr5.png") no-repeat center center;
+	background-color: rgba(255, 255, 255, 0.46);
+	background-size: cover !important;
+}
+
+#pu2163-4
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 21px;
+	left: 29px;
+}
+
+#u2163-4
+{
+	z-index: 8;
+	width: 204px;
+	min-height: 14px;
+	line-height: 41px;
+	font-size: 34px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	position: relative;
+}
+
+#u2161
+{
+	z-index: 7;
+	width: 204px;
+	min-height: 306px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-top: 70px;
+	position: relative;
+}
+
+#u2046-5
+{
+	z-index: 2;
+	width: 80px;
+	min-height: 18px;
+	margin-right: -10000px;
+	margin-top: 30px;
+	left: 822px;
+}
+
+body
+{
+	padding-top: 6px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+<style>
+.sub1 {
+  border: 0;
+  background: linear-gradient(#768191, #535b65);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 0 #404853;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  transition: all .1s linear;
+}
+ .sub1:hover {
+  color: #d4d7da;
+}
+.sub1:active {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 0 #404853;
+  transform: translateY(3px);
+}
+
+.zebra td, .zebra th {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;    
+}
+
+.zebra tbody tr:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+}
+
+.zebra th {
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+    border-bottom: 1px solid #ccc;
+    background-color: #ffff00;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+    background-image:      -o-linear-gradient(top, #f5f5f5, #eee); 
+    background-image:         linear-gradient(top, #f5f5f5, #eee);
+}
+
+.zebra th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;  
+}
+
+.zebra th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.zebra th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.zebra tfoot td {
+    border-bottom: 0;
+    border-top: 1px solid #fff;
+    background-color: #f1f1f1;  
+}
+
+.zebra tfoot td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.zebra tfoot td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.zebra tfoot td:only-child{
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px
+    border-radius: 0 0 6px 6px
+}
+  
+</style>
+ 
+  
+ 
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.0.314.244"/>
+  <title>Sign Up</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?46317016"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?199752887"/>
+  <link rel="stylesheet" type="text/css" href="css/sign-up.css?71657617" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu1705"><!-- group -->
+     <div class="clip_frame grpelem" id="u1705"><!-- image -->
+      <img class="block" id="u1705_img" src="images/v-match%20icon%20(1).png" alt="" width="185" height="72"/>
+     </div>
+     <div class="clearfix grpelem" id="u1677-4"><!-- content -->
+      <p>.com</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u1776-4"><!-- content -->
+     <p>New Around here? Sign UP!</p>
+    </div>
+    <div class="clearfix colelem" id="pu1834"><!-- group -->
+     <div class="grpelem" id="u1834"><!-- custom html -->
+      <html>
+<head>
+<script type="text/javascript">
+//function check(form)/*function to check userid & password*/
+//{
+ /*the following code checkes whether the entered userid and password are matching*/
+ //if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
+  //{
+    //window.open('target.html')/*opens the target page while Id & password matches*/
+  //}
+ //else
+ //{
+   //alert("Error Password or Username")/*displays error message*/
+  //}
+//} 
+
+ 
+function validate_form ( )
+{
+ 
+  
+   
+var chkvalue='';
+var i;
+var defem = "someone@something.com";
+var patt = new RegExp(defem);
+var x=document.forms["register"]["emailid"].value;
+var atpos=x.indexOf("@");
+var dotpos=x.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+  {
+  if(x==null || x=="")
+  alert("Email must be filled out");
+  else
+  alert("Not a valid e-mail address");
+  return false;
+  }
+
+if ( document.register.userPass.value == "")
+{
+alert ( "Please enter a password." );
+return false;
+}
+if ( document.register.CuserPass.value == "")
+{
+alert ( "Please confirm password." );
+return false;
+}
+
+if(document.register.CuserPass.value != document.register.userPass.value)
+{
+alert("Passwords do not match! ");
+return false;
+}
+return true;
+ 
+ 
+}
+          
+
+</script>
+</head>
+<body>
+<div id="container" style="width:10000px">
+
+ <br><br><br>
+<form method="post" action="intersignup.php" name="register" id="register" onsubmit="return validate_form();" > 
+
+<table width="750" border="0" align="left" cellpadding="10" cellspacing="2" class="graybox">
+<tr> 
+	<td class="contentArea">
+	
+	<table width="750" class="intable1">
+					<td>Email id:*</td>
+			<td><input type="email" class="box" id="emailid" size="50" name="emailid" maxlength="60"  placeholder="someone@something.com"></td>
+		</tr>
+		<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+			<td>Password:*</td>
+			<td><input name="userPass" type="password" class="box" id="userPass" value="" size="50" maxlength="12"></td>
+		</tr>
+	<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+			<td>Confirm Password:*</td>
+			<td><input name="CuserPass" type="password" class="box" id="CuserPass" value="" size="50" maxlength="12" 
+			onfocus="if(this.value!=userPass.value) this.value='';"></td>
+		</tr>
+<tr>
+		 <tr cellspacing = "3">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+		 <tr cellspacing = "50">
+		 <td>&nbsp;</td>
+		 </tr>
+		
+		<tr>
+
+			<td><input type="submit"  id = "submit" class="sub1" value="Submit"/> &nbsp; &nbsp; &nbsp;
+			
+				<input type="reset" id = "cancel" class="sub1" value="Cancel"/></td>
+		</tr>
+		 <tr>
+		 <tr cellspacing = "100">
+		 <td>&nbsp;</td>
+		 </tr>
+		 
+ 
+	</table>
+	
+</td>
+
+</tr>
+	
+
+
+</table>
+
+</form>
+</div>
+</body>
+</html>
+
+</div>
+     <div class="clearfix grpelem" id="u1839-6"><!-- content -->
+      <p>Already a member? <a class="nonblock" href="login.html">Login</a></p>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+    <ul class="MenuBar clearfix colelem" id="menuu169"><!-- horizontal box -->
+     <li class="MenuItemContainer clearfix grpelem" id="u170"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u173" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u176-4"><!-- content --><p>Home</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix grpelem" id="u194"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u195" href="contact-us.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u197-4"><!-- content --><p>Contact Us</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix grpelem" id="u211"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u214" href="about-the-site.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u217-4"><!-- content --><p>About the Site</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix grpelem" id="u1915"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1916" href="success-stories.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1919-4"><!-- content --><p>Success Stories</p></div></a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3865766194" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?3788803530" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4068933136" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

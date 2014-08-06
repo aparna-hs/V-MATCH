@@ -1,0 +1,131 @@
+<<html>
+<head>
+<title>Welcome!</title>
+<style type="text/CSS">
+
+ body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+c-b-t-zoom
+{
+text-align:center;
+}
+.c-b-t-zoom:hover
+{
+zoom:150%;/*Default 1, You can change it to your desire size.*/
+}
+#wrapper {
+  position: absolute;
+ 
+  margin: 100px auto;
+  color: #333;
+  text-align: center;
+    vertical-align: middle;
+	text-size: 100px;
+	top: 10%;
+    left: 20%;
+    margin-top: -40px;
+    margin-left: -200px;
+    width: 800px;
+    height: 430px;
+	
+}
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(fonts/CookieMonster.ttf);
+}
+
+@font-face
+{
+font-family: Call me maybe;
+src: url(fonts/Call me maybe.ttf);
+}
+
+@font-face
+{
+font-family: gwibble;
+src: url(fonts/GWIBBLE_.TTF);
+}
+@font-face
+{
+font-family: cherl;
+src: url(fonts/CHERL___.TTF);
+}
+@font-face
+{
+font-family: cheri;
+src: url(fonts/CHERI___.TTF);
+}
+
+#titleforus {
+font-family:cheri;
+font-size:50px;
+color:#ffffff;
+text-outline: 20px 20px #00ff00;
+text-shadow: 15px 15px 15px #000000;
+}
+
+#titlef {
+font-family:cheri;
+font-size:80px;
+color:#ffffff;
+text-outline: 20px 20px #00ff00;
+text-shadow: 15px 15px 15px #000000;
+}
+
+
+#divElement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 100px;
+    height: 100px;
+}​
+
+
+</style>
+<script type="text/javascript">
+window.onload=timeout;
+function timeout(){
+window.setTimeout("redirect()",9000);
+}
+//#8ec63f
+function redirect(){
+window.location="index.html";
+return;
+}
+</script>
+</head>
+<body  onload="timeout()"  >
+
+  <img alt="full screen background image" src="plhrt.jpg" id="full-screen-background-image" /> 
+  <div id="wrapper" class="c-b-t-zoom"><p id="titleforus" >Perfect Match for Eternal Happiness......</p>
+  <p id="titlef" > <marquee direction="right">V </marquee><marquee direction="left">Match</marquee></p>
+	</div>
+  
+  
+   <embed height="50" width="100" src="music.mp3">
+   
+	
+  </div>
+</body>

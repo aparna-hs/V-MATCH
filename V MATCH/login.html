@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+<style>
+.sub1 {
+  border: 0;
+  background: linear-gradient(#768191, #535b65);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 5px 0 #404853;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  transition: all .1s linear;
+}
+ .sub1:hover {
+  color: #d4d7da;
+}
+.sub1:active {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 0 #404853;
+  transform: translateY(3px);
+}
+
+.zebra td, .zebra th {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;    
+}
+
+.zebra tbody tr:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+}
+
+.zebra th {
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+    border-bottom: 1px solid #ccc;
+    background-color: #ffff00;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+    background-image:    -moz-linear-gradient(top, #f5f5f5, #eee);
+    background-image:     -ms-linear-gradient(top, #f5f5f5, #eee);
+    background-image:      -o-linear-gradient(top, #f5f5f5, #eee); 
+    background-image:         linear-gradient(top, #f5f5f5, #eee);
+}
+
+.zebra th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;  
+}
+
+.zebra th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+.zebra th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.zebra tfoot td {
+    border-bottom: 0;
+    border-top: 1px solid #fff;
+    background-color: #f1f1f1;  
+}
+
+.zebra tfoot td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+
+.zebra tfoot td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+}
+
+.zebra tfoot td:only-child{
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px
+    border-radius: 0 0 6px 6px
+}
+  
+</style>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.0.314.244"/>
+  <title>Login</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?46317016"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?199752887"/>
+  <link rel="stylesheet" type="text/css" href="css/login.css?4110196356" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pu1705"><!-- group -->
+     <div class="clip_frame grpelem" id="u1705"><!-- image -->
+      <img class="block" id="u1705_img" src="images/v-match%20icon%20(1).png" alt="" width="185" height="72"/>
+     </div>
+     <div class="clearfix grpelem" id="u1677-4"><!-- content -->
+      <p>.com</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u1775-4"><!-- content -->
+     <p>LOGIN</p>
+    </div>
+    <div class="clearfix colelem" id="pu1836"><!-- group -->
+     <div class="grpelem" id="u1836"><!-- custom html -->
+      <html>
+<head>
+<script>
+function validateForm()
+{
+var x=document.forms["frmLogin"]["userEmail"].value;
+var atpos=x.indexOf("@");
+var dotpos=x.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+  {
+  if(x==null || x=="")
+  alert("Email must be filled out");
+  else
+  alert("Not a valid e-mail address");
+  return false;
+  }
+ var y=document.forms["frmLogin"]["userPass"].value;
+if (y==null || y=="")
+  {
+  alert("Password must be filled out");
+  return false;
+  }
+}
+</script>
+</head>
+<body>
+<div id="container" style="width:1000px">
+<table width="750" border="0" align="left" cellpadding="0" cellspacing="1" class="graybox">
+
+	<td class="contentArea"> <form action="interlogin.php" method="post" name="frmLogin" id="frmLogin" onsubmit="return validateForm();" >
+	<table width="350" class="intable">
+
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+<tr>
+<tr>
+			
+			<td><input name="usertype" type="radio" class="box" id="user" value="user" checked>User</td>
+			<td><input name="usertype" type="radio" class="box" id="admin" value="admin">Admin
+			</td>
+		</tr>
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+
+<tr> 
+		
+<tr>
+			<td>Email id</td>
+			<td><input name="userEmail" type="text" class="box" id="userEmail" placeholder="someone@something.com" size="30" maxlength="40"></td>
+		</tr>
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+		<tr>
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+			<td>Password</td>
+			<td><input name="userPass" type="password" class="box" id="userPass" value="" size="30" maxlength="10"></td>
+		</tr>
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+
+			<td><input type="submit"  id = "submit" class="sub1" value="Login"/> &nbsp; &nbsp; &nbsp;</td>
+
+</tr>
+<tr>
+		 <tr cellspacing = "1">
+		 <td>&nbsp;</td>
+		 </tr>
+		<tr>
+		
+	</table>
+</form></td>
+</tr>
+
+</table>
+</div>
+</body>
+</html>
+
+
+</div>
+     <div class="clearfix grpelem" id="u1838-7"><!-- content -->
+      <p >New User?? <a class="nonblock" href="sign-up.html">Sign Up</a>&nbsp;Here!</p>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+    <ul class="MenuBar clearfix colelem" id="menuu169"><!-- horizontal box -->
+     <li class="MenuItemContainer clearfix grpelem" id="u170"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u173" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u176-4"><!-- content --><p>Home</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix grpelem" id="u194"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u195" href="contact-us.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u197-4"><!-- content --><p>Contact Us</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix grpelem" id="u211"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u214" href="about-the-site.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u217-4"><!-- content --><p>About the Site</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix grpelem" id="u1915"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1916" href="success-stories.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1919-4"><!-- content --><p>Success Stories</p></div></a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3865766194" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?3788803530" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4068933136" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

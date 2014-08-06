@@ -1,0 +1,73 @@
+<!-- Education information -->
+			<div class="feld_wrap fl f_ws2">
+				<h4>Your education:</h4>				
+				<label><a>*</a>Highest qualification</label>
+				<span class="fl"> 
+				<select id="degreeSelectBox" name="educationDetails.degree" class="slctfld degreefld otherField" onblur="ajaxify()">
+					<option value="">Select your degree</option>
+						
+						<option value="" disabled="disabled">------------------------PG-Professional Courses------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="CACC">CA (Chartered Accountant)</option><option value="CFAP">CFA (Chartered Financial Analyst)</option><option value="CSEC">CS (Company Secretary)</option><option value="ICWA">ICWA</option><option value="INTE">Integrated PG</option><option value="MARC">M.Arch. (Architecture)</option><option value="MEDG">M.Ed. (Education)</option><option value="MLIB">M.Lib.Sc. (Library Sciences)</option><option value="MPLA">M.Plan. (Planning)</option><option value="MFAT">Master of Fashion Technology</option><option value="MOHA">Master of Health Administration</option><option value="MHPA">Master of Hospital Administration</option><option value="MBAP">MBA/PGDM</option><option value="MCAT">MCA PGDCA part time</option><option value="MCAP">MCA/PGDCA</option><option value="MEMT">ME/M.Tech/MS (Engg/Sciences)</option><option value="MFAA">MFA (Fine Arts)</option><option value="MLLM">ML/LLM (Law)</option><option value="MSWT">MSW (Social Work)</option><option value="PGDP">PG Diploma</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------PG-General Courses------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="MCOM">M.Com. (Commerce)</option><option value="MSCP">M.Sc. (Science)</option><option value="MAPG">MA (Arts)</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------Graduation-Professional Courses------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="BARA">B.Arch (Architecture)</option><option value="BEDG">B.Ed (Education)</option><option value="BEDE">B.El.Ed (Elementary Education)</option><option value="BLSC">B.Lib.Sc (Library Sciences)</option><option value="BPED">B.P.Ed. (Physical Education)</option><option value="BPLA">B.Plan (Planning)</option><option value="BFTC">Bachelor of Fashion Technology</option><option value="BBAG">BBA/BBM/BBS</option><option value="BCAG">BCA (Computer Application)</option><option value="BEBT">BE B.Tech (Engineering)</option><option value="BFAT">BFA (Fine Arts)</option><option value="BHMG">BHM (Hotel Management)</option><option value="BLLB">BL/LLB/BGL (Law)</option><option value="BSWK">BSW (Social Work)</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------Graduation-General Courses------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="BAGR">B.A. (Arts)</option><option value="BCOG">B.Com (Commerce)</option><option value="BSCG">B.Sc (Science)</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------Medicine (General,Dental,Surgeon)------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="BPHA">B.Pharm (Pharmacy)</option><option value="BVSC">B.V.Sc. (Veterinary Science)</option><option value="BDSG">BDS (Dental Surgery)</option><option value="BHMS">BHMS (Homeopathy)</option><option value="MPHA">M.Pharm. (Pharmacy)</option><option value="MVSC">M.V.Sc. (Veterinary Science)</option><option value="MBBS">MBBS</option><option value="MDMS">MD/ MS (Medicine)</option><option value="MDSG">MDS (Master of Dental Surgery)</option><option value="BPTL">BPT (Physiotherapy)</option><option value="MPTD">MPT (Physiotherapy)</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------Doctorate (Phd)------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="MPHI">M.Phil. (Philosophy)</option><option value="PHDD">Ph.D. (Doctorate)</option><option value="OTHD">Other Doctorate</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------Diploma Courses------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="DIAG">Arts/ Graphic Designing</option><option value="DIEG">Engineering</option><option value="DIFD">Fashion/ Design</option><option value="DIFL">Languages</option><option value="DIPI">Pilot Licenses</option><option value="DIPL">Other Diploma</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------12th but not pursuing graduation------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="SSSL">12th</option>
+						<option disabled="disabled"></option>
+						
+						<option value="" disabled="disabled">------------------------10th but not pursuing 12th------------------------</option>
+						<option disabled="disabled"></option>
+						<option value="HGSC">10th</option>
+						<option disabled="disabled"></option>
+					
+				</select>
+				</span>
+				<div id="other_degreeSelectBox"> 
+					<label>&nbsp;</label>
+					<div class="instyled-input">
+						<input id="other_degreeSelectBox_input" name="educationDetails.otherDegree" type="text" value=""/>
+					</div>
+				</div>
+				 
+				<div id="courseList">
+					
+					
+				</div>
+				<div id="other_coursesSelectBox" style="display:none"> 
+						<label>&nbsp;</label>
+						<div class="instyled-input">
+							<input id="other_coursesSelectBox_input" name="educationDetails.otherFieldOfStudy" type="text" value=""/>
+						</div>
+				</div>
+				

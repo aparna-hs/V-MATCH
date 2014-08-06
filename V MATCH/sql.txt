@@ -1,0 +1,22 @@
+SELECT profile_m.dname
+FROM profile_m
+INNER JOIN pref_tb
+ON profile_m.age>=pref_tb.fromage AND profile_m.age<=pref_tb.toage AND profile_m.sex!=1 WHERE (profile_m.occupation=pref_tb.occupation OR  pref_tb.occupation="") AND (profile_m.education=pref_tb.education OR pref_tb.education
+
+
+
+
+SELECT profile_m.dname
+FROM profile_m
+INNER JOIN pref_tb ON profile_m.age >= pref_tb.fromage
+AND profile_m.age <= pref_tb.toage
+AND profile_m.sex !=1
+WHERE (
+profile_m.rlgn = pref_tb.rlgn
+OR pref_tb.rlgn =  ""
+)
+AND (
+profile_m.education = pref_tb.education
+OR pref_tb.education =  ""
+)
+AND pref_tb.uid =31
